@@ -4,17 +4,17 @@ layout: home
 
 hero:
   name: "Knowledge is infinite"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "记录个人工作学习成果"
+  tagline: 你的指尖，拥有改变世界的力量
   image:
     src: https://s1.ax1x.com/2023/04/03/pph0ZWQ.jpg
     alt: "logo"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /examples/markdown-examples
     - theme: alt
-      text: API Examples
+      text: View on GitHub
       link: /examples/api-examples
 
 features:
