@@ -8,29 +8,33 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo:"https://s1.ax1x.com/2023/04/03/pph0ZWQ.jpg",
-    // siteTitle: false,
+
+    // 导航栏
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '前端技巧', link: '/skills/markdown-examples' }
     ],
 
+    // 侧边栏
     sidebar: [
       {
-        text: 'Examples',
+        text: '前端技巧 ',
         items: [
-          { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/examples/api-examples' }
+          { text: 'Markdown Examples', link: '/skills/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/skills/api-examples' }
         ]
       }
     ],
 
+    // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/JY-HE/Knowledge-is-infinite' }
     ],
 
-    // footer: {
-    //   message: '其实我也不知道写啥注脚',
-    //   copyright: '那我就随便写个吧',
-    // }
+    // 页脚
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023 HeJiaYong'
+    }
   }
 })

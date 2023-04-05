@@ -15,39 +15,47 @@ hero:
       link: /examples/markdown-examples
     - theme: alt
       text: View on GitHub
-      link: /examples/api-examples
+      link: https://github.com/JY-HE/Knowledge-is-infinite
 
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 视觉盛宴
+    details: 打造独具个性的前端样式
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 知识源泉
+    details: 总结学习成果
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 工具库
+    details: 集成提效工具
 ---
 
 <style lang='scss'>
+@mixin background($color) {
+    background-image:
+    linear-gradient(90deg, transparent 24px, $color 24px, $color 25px, transparent 25px),
+    linear-gradient(transparent 24px, $color 24px, $color 25px, transparent 25px);
+    background-size: 50px 50px;
+}
+
 .VPContent {
   &.is-home {
-    background-image:
-      linear-gradient(90deg, transparent 24px, var(--vp-c-divider) 24px, var(--vp-c-divider) 25px, transparent 25px),
-      linear-gradient(transparent 24px, var(--vp-c-divider) 24px, var(--vp-c-divider) 25px, transparent 25px);
-    background-size: 50px 50px;
+    @include background(var(--vp-c-divider));
   }
+}
+
+.VPFooter{
+    @include background(var(--vp-c-divider));
 }
 
 .dark{
   .VPContent {
     &.is-home {
-      background-image:
-        linear-gradient(90deg, transparent 24px, var(--vp-code-block-bg) 24px, var(--vp-code-block-bg) 25px, transparent 25px),
-        linear-gradient(transparent 24px, var(--vp-code-block-bg) 24px, var(--vp-code-block-bg) 25px, transparent 25px);
-      background-size: 50px 50px;
+      @include background(var(--vp-code-block-bg));
     }
   }
+  .VPFooter{
+    @include background(var(--vp-code-block-bg));
+}
 }
 
 .VPNav{
