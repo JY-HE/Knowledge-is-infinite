@@ -5,7 +5,6 @@
 
 .DS_Store
 /dist
-yarn.lock
 
 # local env files
 .env.local
@@ -146,6 +145,5 @@ dev-config.js
 
 .yalc/
 package-lock.json
-yarn.lock
 yalc.lock
 .npmrc
