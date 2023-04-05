@@ -14,10 +14,10 @@ git add -A
 git commit -m 'deploy'
  
 # 如果部署到 https://<USERNAME>.github.io
-git push -f git@github.com:JY-HE/JY-HE.github.io.git docs
+# git push -f git@github.com:JY-HE/JY-HE.github.io.git docs
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f git@github.com:JY-HE/Knowledge-is-infinite.git master:gh-pages
 
 cd -
  
