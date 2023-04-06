@@ -12,7 +12,7 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端技巧', link: '/skills/markdown-examples' },
+      { text: '前端技巧', link: '/skills/spinningBall' },
       { text: '文档', link: '/documents/markdown-examples' },
       { text: '工具库', link: '/tools/sprites' }
     ],
@@ -23,6 +23,7 @@ export default defineConfig({
         {
           text: '前端技巧',
           items: [
+            { text: '旋转小球', link: '/skills/spinningBall' },
             { text: 'Markdown Examples', link: '/skills/markdown-examples' },
             { text: 'Runtime API Examples', link: '/skills/api-examples' }
           ]
