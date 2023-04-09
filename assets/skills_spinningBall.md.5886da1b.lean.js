@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,N as l}from"./chunks/framework.e35b7731.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"skills/spinningBall.md"}'),p={name:"skills/spinningBall.md"},o=l("",2),e=[o];function t(c,r,D,y,C,F){return n(),a("div",null,e)}const d=s(p,[["render",t]]);export{i as __pageData,d as default};
