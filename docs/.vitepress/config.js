@@ -24,8 +24,8 @@ export default defineConfig({
           text: '前端技巧',
           items: [
             { text: '旋转小球', link: '/skills/spinningBall' },
+            { text: '文字渐变', link: '/skills/textGradient' },
             { text: 'Markdown Examples', link: '/skills/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/skills/api-examples' }
           ]
         },
       ],

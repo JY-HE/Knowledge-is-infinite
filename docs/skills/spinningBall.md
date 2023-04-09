@@ -6,7 +6,7 @@
 details{
     cursor: pointer;
     &[open]{
-        color: var(--vp-c-brand);;
+        color: var(--vp-c-brand);
     }
 }
 .box-background {
