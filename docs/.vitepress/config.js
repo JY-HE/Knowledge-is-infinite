@@ -26,6 +26,7 @@ export default defineConfig({
           items: [
             { text: '旋转小球', link: '/skills/spinningBall' },
             { text: '文字渐变', link: '/skills/textGradient' },
+            // { text: '导航栏悬浮显示子菜单', link: '/skills/hoverMenu' },
             { text: 'Markdown Examples', link: '/skills/markdown-examples' },
           ]
         },
@@ -66,9 +67,9 @@ export default defineConfig({
     ],
 
     // 页脚
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023 HeJiaYong'
-    }
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2023 HeJiaYong'
+    // }
   }
 })

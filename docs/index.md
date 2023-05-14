@@ -30,36 +30,30 @@ features:
 ---
 
 <style lang='scss'>
-@mixin background($color) {
-    background-image:
-    linear-gradient(90deg, transparent 24px, $color 24px, $color 25px, transparent 25px),
-    linear-gradient(transparent 24px, $color 24px, $color 25px, transparent 25px);
-    background-size: 50px 50px;
-}
-
 .VPContent {
   &.is-home {
-    @include background(var(--vp-c-divider));
+      background-image: url('https://s1.ax1x.com/2023/05/14/p9cJ8r6.png');
+      background-size: 100%;
+      background-position: center center;
   }
-}
-
-.VPFooter{
-    @include background(var(--vp-c-divider));
 }
 
 .dark{
   .VPContent {
     &.is-home {
-      @include background(var(--vp-code-block-bg));
+      background-image: url('https://s1.ax1x.com/2023/05/14/p9ctVNF.png');
+      background-size: 100%;
+      background-position: center center;
     }
   }
-  .VPFooter{
-    @include background(var(--vp-code-block-bg));
-}
 }
 
 .VPNav{
+  transition: none !important;
+
   .VPNavBar{
+    transition: none !important;
+
     .container{
       .VPNavBarTitle{
         .title{
@@ -78,6 +72,12 @@ features:
               --f: 1.2;
             }
           }
+        }
+      }
+
+      .content{
+        .content-body{
+          transition: none !important;
         }
       }
     }
