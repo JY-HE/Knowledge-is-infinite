@@ -2,9 +2,12 @@
     <div class="spinningBall"></div>
 </div>
 
-<style lang='scss'>
+<style>
 details{
     cursor: pointer;
+    &:hover{
+        color: var(--vp-c-brand);
+    }
     &[open]{
         color: var(--vp-c-brand);
     }
@@ -19,6 +22,9 @@ details{
     width: 100%;
     height: 360px;
 }
+</style>
+
+<style lang='scss' scoped>
 .spinningBall{
     width: 200px;
     height: 200px;

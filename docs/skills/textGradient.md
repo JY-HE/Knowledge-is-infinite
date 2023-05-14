@@ -5,17 +5,7 @@
 <br>
 <div class="textGradient1">遥想公瑾当年，小乔出嫁了，雄姿英发。</div>
 
-<style lang='scss'>
-details{
-    cursor: pointer;
-    &:hover{
-        color: var(--vp-c-brand);
-    }
-    &[open]{
-        color: var(--vp-c-brand);
-    }
-}
-
+<style lang='scss' scoped>
 .textGradient1{
     width: 100%;
     text-align: center;
@@ -37,7 +27,7 @@ details{
     <div class="textGradient1"></div>
 </template>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .textGradient{
     width: 100%;
     text-align: center;
@@ -62,7 +52,7 @@ details{
 <br>
 <div class="textGradient2">遥想公瑾当年，小乔出嫁了，雄姿英发。</div>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .textGradient2{
     width: 100%;
     text-align: center;
@@ -94,7 +84,7 @@ details{
 <br>
 <div class="textGradient3">遥想公瑾当年，小乔出嫁了，雄姿英发。</div>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .textGradient3{
     width: 100%;
     text-align: center;
