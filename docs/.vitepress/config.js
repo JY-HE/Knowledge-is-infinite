@@ -5,6 +5,8 @@ export default defineConfig({
   title: "学海无涯",
   description: "A VitePress Site",
   base: '/Knowledge-is-infinite/',
+  // 显示最后更新时间
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "https://s1.ax1x.com/2023/04/03/pph0ZWQ.jpg",
@@ -12,21 +14,32 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端技巧', link: '/skills/spinningBall' },
+      {
+        text: '开发技巧', items: [
+          { text: 'CSS', link: '/skills/css/spinningBall' },
+          { text: 'JavaScript', link: '/skills/javascript/markdown-examples' },
+        ]
+      },
       { text: '文档', link: '/documents/markdown-examples' },
       { text: '工具库', link: '/tools/sprites' },
     ],
 
     // 侧边栏
     sidebar: {
-      '/skills/': [
+      '/skills/css': [
         {
-          text: '前端技巧',
+          text: 'CSS开发技巧',
           items: [
-            { text: '旋转小球', link: '/skills/spinningBall' },
-            { text: '文字渐变', link: '/skills/textGradient' },
-            // { text: '导航栏悬浮显示子菜单', link: '/skills/hoverMenu' },
-            { text: 'Markdown Examples', link: '/skills/markdown-examples' },
+            { text: '旋转小球', link: '/skills/css/spinningBall' },
+            { text: '文字渐变', link: '/skills/css/textGradient' },
+          ]
+        },
+      ],
+      '/skills/javascript': [
+        {
+          text: 'JavaScript开发技巧',
+          items: [
+            { text: 'markdown-examples', link: '/skills/javascript/markdown-examples' },
           ]
         },
       ],
@@ -64,6 +77,7 @@ export default defineConfig({
         link: 'https://blog.csdn.net/qq_48009509?type=blog'
       },
     ],
+
 
     // 页脚
     // footer: {
