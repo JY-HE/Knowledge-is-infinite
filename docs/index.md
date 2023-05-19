@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /examples/markdown-examples
+      link: /skills/markdown-examples
     - theme: alt
       text: View on GitHub
       link: https://github.com/JY-HE/Knowledge-is-infinite
@@ -29,70 +29,4 @@ features:
     details: 集成提效工具
 ---
 
-<style lang='scss'>
-.VPContent {
-  &.is-home {
-      background-image: url('https://s1.ax1x.com/2023/05/14/p9cJ8r6.png');
-      background-size: 100%;
-      background-position: center center;
-  }
-}
-
-.dark{
-  .VPContent {
-    &.is-home {
-      background-image: url('https://s1.ax1x.com/2023/05/14/p9ctVNF.png');
-      background-size: 100%;
-      background-position: center center;
-    }
-  }
-}
-
-.VPNav{
-  transition: none !important;
-
-  .VPNavBar{
-    transition: none !important;
-
-    .container{
-      .VPNavBarTitle{
-        .title{
-          &:hover{
-            opacity: 1;
-          }
-          .logo{
-            --f: 1;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            transform: scale(var(--f));
-            transition: 0.5s;
-
-            &:hover{
-              --f: 1.2;
-            }
-          }
-        }
-      }
-
-      .content{
-        .content-body{
-          transition: none !important;
-        }
-      }
-    }
-  }
-}
-
-.image-container{
-  transform: none !important;
-
-  .image-bg, .VPImage{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-  }
-}
-
-</style>
 

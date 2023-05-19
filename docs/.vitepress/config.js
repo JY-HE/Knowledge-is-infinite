@@ -15,7 +15,6 @@ export default defineConfig({
       { text: '前端技巧', link: '/skills/spinningBall' },
       { text: '文档', link: '/documents/markdown-examples' },
       { text: '工具库', link: '/tools/sprites' },
-      { text: '关于我', link: '/aboutMe/aboutMe' },
     ],
 
     // 侧边栏

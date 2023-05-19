@@ -1,0 +1,117 @@
+/*
+ * @Author: HeJiaYong
+ * @Date: 2023-05-19 16:20:16
+ * @LastEditors: HeJiaYong
+ * @LastEditTime: 2023-05-19 16:33:45
+ * @FilePath: \Knowledge-is-infinite\docs\.vitepress\theme\style.scss
+ * @Description:  全局样式文件
+ * 
+ */
+
+
+/*
+* 首页背景
+*/
+.VPContent {
+    &.is-home {
+        background-image: url('https://s1.ax1x.com/2023/05/14/p9cJ8r6.png');
+        background-size: 100%;
+        background-position: center center;
+    }
+}
+
+/*
+* 暗黑主题-首页背景
+*/
+.dark {
+    .VPContent {
+        &.is-home {
+            background-image: url('https://s1.ax1x.com/2023/05/14/p9ctVNF.png');
+            background-size: 100%;
+            background-position: center center;
+        }
+    }
+}
+
+/*
+* 导航栏
+*/
+.VPNav {
+    transition: none !important;
+
+    .VPNavBar {
+        transition: none !important;
+
+        .container {
+            .VPNavBarTitle {
+                .title {
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                    .logo {
+                        --f: 1;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        transform: scale(var(--f));
+                        transition: 0.5s;
+
+                        &:hover {
+                            --f: 1.2;
+                        }
+                    }
+                }
+            }
+
+            .content {
+                .content-body {
+                    transition: none !important;
+                }
+            }
+        }
+    }
+}
+
+/*
+* 首页图片大logo
+*/
+.image-container {
+    transform: none !important;
+
+    .image-bg,
+    .VPImage {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
+
+/*
+* 查看代码
+*/
+details {
+    cursor: pointer;
+
+    &:hover {
+        color: var(--vp-c-brand);
+    }
+
+    &[open] {
+        color: var(--vp-c-brand);
+    }
+}
+
+/*
+* 统一的效果背景框
+*/
+.box-background {
+    background-image: linear-gradient(90deg, #04182c, #000c17, #04182c);
+    border: 3px solid rgba(53, 162, 253, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+}

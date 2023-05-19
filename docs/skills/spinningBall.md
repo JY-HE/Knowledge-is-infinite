@@ -2,28 +2,6 @@
     <div class="spinningBall"></div>
 </div>
 
-<style>
-details{
-    cursor: pointer;
-    &:hover{
-        color: var(--vp-c-brand);
-    }
-    &[open]{
-        color: var(--vp-c-brand);
-    }
-}
-.box-background {
-    background-image: linear-gradient(90deg, #04182c, #000c17, #04182c);
-    border: 3px solid rgba(53,162,253,.267);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 360px;
-}
-</style>
-
 <style lang='scss' scoped>
 .spinningBall{
     width: 200px;
