@@ -8,7 +8,7 @@ export default {
         { text: 'JavaScript', link: '/skills/javascript/markdown-examples' },
       ]
     },
-    { text: '文档', link: '/documents/markdown-examples' },
+    { text: '学习笔记', link: '/documents/cors' },
     {
       text: '工具库', items: [
         { text: '精灵图转换', link: '/tools/sprites/sprites' },
@@ -38,9 +38,9 @@ export default {
     ],
     '/documents/': [
       {
-        text: '文档',
+        text: '学习笔记',
         items: [
-          { text: '文档1', link: '/skills/markdown-examples' },
+          { text: 'CORS简单请求+预检请求', link: '/documents/cors' },
         ]
       },
     ],
