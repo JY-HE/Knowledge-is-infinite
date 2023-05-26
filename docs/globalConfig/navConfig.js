@@ -8,7 +8,7 @@ export default {
         { text: 'JavaScript', link: '/skills/javascript/markdown-examples' },
       ]
     },
-    { text: '学习笔记', link: '/documents/cors' },
+    { text: '学习笔记', link: '/documents/cors跨域' },
     {
       text: '工具库', items: [
         { text: '精灵图转换', link: '/tools/sprites/sprites' },
@@ -40,7 +40,8 @@ export default {
       {
         text: '学习笔记',
         items: [
-          { text: 'CORS简单请求+预检请求', link: '/documents/cors' },
+          { text: 'CORS简单请求+预检请求', link: '/documents/cors跨域' },
+          { text: '关于Vue中data的定义', link: '/documents/关于Vue中data的定义' },
         ]
       },
     ],
