@@ -25,6 +25,7 @@ export default {
         items: [
           { text: '旋转小球', link: '/skills/css/spinningBall' },
           { text: '文字渐变', link: '/skills/css/textGradient' },
+          { text: '弹性旋转菜单', link: '/skills/css/rotatingMenu' },
         ]
       },
     ],
